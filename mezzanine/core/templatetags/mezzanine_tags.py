@@ -264,7 +264,7 @@ def thumbnail(image_url, width, height, quality=95, left=.5, top=.5,
     resized image. if width or height are zero then original ratio is
     maintained.
     """
-
+    print "thumbnail entry, url"+str(image_url)
     if not image_url:
         return ""
     try:
